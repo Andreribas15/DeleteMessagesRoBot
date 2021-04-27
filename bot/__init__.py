@@ -73,7 +73,7 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
+REQD_PERMISSIONS = "https://t.me/ARNextRobot/3"
 GIT_REPO_LINK = "https://github.com/Andreribas15/DeleteMessagesRoBot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
