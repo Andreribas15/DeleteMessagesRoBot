@@ -74,14 +74,14 @@ def LOGGER(name: str) -> logging.Logger:
 
 
 REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+GIT_REPO_LINK = "https://github.com/Andreribas15/DeleteMessagesRoBot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
+    "I'm a bot that can delete <b>all</b> your channel or supergroup messages. "
     "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
+    f"Developed by: @Andre_Ribas/@ARNextRobot"
     "\n\n"
-    f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+    f"Information on how to use the Bot: {REQD_PERMISSIONS}"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
