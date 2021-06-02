@@ -83,7 +83,7 @@ START_MESSAGE = get_config("START_MESSAGE", (
     "\n\n"
     f"Information on how to use the Bot: {REQD_PERMISSIONS}"
     "\n\n"
-    f"<b>If this Bot is not working use: @DeleteMessageNext2Bot</b>"
+    f"<b>If this Bot is not working use: @DeleteMessageNextBot</b>"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
