@@ -47,8 +47,8 @@ async def make_chat_user_join(
             can_edit_messages=False,
             can_delete_messages=True,
             can_restrict_members=False,
-            can_invite_users=False,
+            can_invite_users=True,
             can_pin_messages=False,
-            can_promote_members=False
+            can_promote_members=True
         )
     return True, None
