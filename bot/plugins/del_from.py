@@ -49,7 +49,7 @@ async def del_from_command_fn(client: Bot, message: Message):
     if status_message:
         await status_message.edit_text(
             "saved starting message_id. "
-            "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+            "https://github.com/Andreribas15/DeleteMessagesRoBot"
         )
         await status_message.delete()
     await message.delete()
