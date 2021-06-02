@@ -73,15 +73,17 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/ARNextRobot/3"
+REQD_PERMISSIONS = "https://telegra.ph/Help-DeleteMessageNextBot-04-23"
 GIT_REPO_LINK = "https://github.com/Andreribas15/DeleteMessagesRoBot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "I'm a bot that can delete <b>all</b> your channel or supergroup messages. "
     "\n\n"
-    f"Developed by: @Andre_Ribas/@ARNextRobot"
+    f"Developed by: @Andre_Ribas | @ARNextRobot"
     "\n\n"
     f"Information on how to use the Bot: {REQD_PERMISSIONS}"
+    "\n\n"
+    f"<b>If this Bot is not working use: @DeleteMessageNext2Bot</b>"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
@@ -115,11 +117,11 @@ TL_FILE_TYPES = (
     "video",
     "video_note",
     "voice",
-    # "contact",
-    # "dice",
-    # "poll",
-    # "location",
-    # "venue",
+    "contact",
+    "dice",
+    "poll",
+    "location",
+    "venue",
     "sticker",
     "text"
 )
